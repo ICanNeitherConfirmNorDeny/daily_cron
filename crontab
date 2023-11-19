@@ -1,0 +1,4 @@
+# add the following to the crontab file
+
+0 0 * * * /bin/bash /root/daily_cron.sh
+@reboot /bin/bash /root/daily_cron.sh
